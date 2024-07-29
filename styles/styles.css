@@ -19,8 +19,26 @@
     font-weight: 500;
 }
 
-.primary-btn {
-    
+.color-white {
+    color: var(--White);
+}
+
+.primary-btn-lrg {
+    padding: 26px 0px;
+    background-color: var(--Primary);
+    border-radius: 16px;
+}
+
+.primary-btn-big {
+    padding: 18px 20px;
+    background-color: var(--Primary);
+    border-radius: 16px;
+}
+
+.primary-btn-med {
+    padding: 12px 16px;
+    background-color: var(--Primary);
+    border-radius: 16px;
 }
 
 ul {
@@ -57,6 +75,7 @@ nav {
     font-family: var(--Basic-Font);
     font-weight: 400;
     display: flex;
+    align-items: center;
     gap: 43px;
 }
 
@@ -64,4 +83,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.download-btn {
+    gap: 8px;
 }
