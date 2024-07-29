@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --Primary: #0F1FD1;
+    --Black: #000000;
+    --White: #FDFEFF;
+    --Neutral: #929299;
+}
+
