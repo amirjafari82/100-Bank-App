@@ -8,5 +8,60 @@
     --Black: #000000;
     --White: #FDFEFF;
     --Neutral: #929299;
+    --Basic-Font: "Poppins", sans-serif;
 }
 
+.font-weight-400 {
+    font-weight: 400;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.primary-btn {
+    
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--Black);
+}
+
+header {
+    margin: 14px 64px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    font-family: var(--Basic-Font);
+    font-weight: 400;
+    display: flex;
+    gap: 80px;
+    margin-right: 113px;
+}
+
+.access-menu {
+    font-family: var(--Basic-Font);
+    font-weight: 400;
+    display: flex;
+    gap: 43px;
+}
+
+.access-menu > li > a , .menu > li > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
