@@ -5,6 +5,7 @@
 
 :root {
     --Primary: #0F1FD1;
+    --Primary100: #E7E8FA;
     --Primary500: #2735D6;
     --Purple600: #0F1FD1; 
     --Black: #000000;
@@ -132,6 +133,8 @@ nav {
 
 .bottom-hero {
     background-color: var(--Neutral50);
+    border-radius: 56px;
+    margin-top: 100px;
 }
 
 .bottom-hero .bottom-hero-content {
@@ -141,7 +144,9 @@ nav {
 
 .bottom-hero .mobile-app {
     margin-right: 24px;
+    margin-bottom: 12px;
     position: relative;
+    margin-top: -172px;
 }
 
 .bottom-hero .mobile-app .mobile-app-desc {
@@ -155,7 +160,6 @@ nav {
 }
 
 .about-us {
-    margin-top: 100px;
     padding: 80px 32px;
     border-radius: 40px;
 }
@@ -246,10 +250,15 @@ nav {
 .download-app {
     background-color: rgba(15, 31, 209, 0.04);
     border-radius: 48px;
-    padding: 45px 0px 60.72px 45px;
+    padding: 45px 0px 0px 45px;
     margin: 0px 64px;
     display: flex;
     justify-content: space-between;
+}
+
+.download-app .mobile-app2 {
+    margin-top: 97px;
+    margin-bottom: -158px;
 }
 
 .download-app .content {
@@ -281,4 +290,108 @@ nav {
     display: flex;
     margin-top: 175px;
     gap: 8px;
+}
+
+/* Our Services */
+
+.services {
+    font-family: var(--Basic-Font);
+    margin: 221px 64px 256px 64px;
+}
+
+.services > .title {
+    text-align: center;
+}
+
+.services .title h3 {
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.services .title .subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--Neutral400);
+}
+
+.services .service-items .transfer,
+.services .service-items .payments,
+.services .service-items .acc-managements,
+.services .service-items .cash-managements {
+    padding: 24px 0px 0px 24px;
+    border-radius: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services .service-items .service-logo {
+    align-self: flex-end;
+    margin-bottom: -7px;
+    margin-right: -1px;
+}
+
+.services .service-items .service-logo svg {
+    border-bottom-right-radius: 48px;
+}
+
+.services .service-items .transfer,
+.services .service-items .payments {
+    background-color: var(--Primary100);
+}
+
+.services .service-items .acc-managements,
+.services .service-items .cash-managements {
+    background-color: var(--Neutral50);
+}
+
+.services .service-items .transfer {
+    grid-area: transfer;
+}
+
+.services .service-items .payments {
+    grid-area: payments;
+}
+
+.services .service-items .acc-managements {
+    grid-area: acc-manange;
+}
+
+.services .service-items .cash-managements {
+    grid-area: cash-manage;
+}
+
+.services .service-items {
+    display: grid;
+    grid-template-areas: 'transfer acc-manange acc-manange acc-manange acc-manange acc-manange acc-manange acc-manange acc-manange acc-manange acc-manange'
+                        'cash-manage cash-manage cash-manage cash-manage cash-manage cash-manage cash-manage cash-manage cash-manage cash-manage payments';
+    gap: 24px;
+    margin-top: 104px;
+}
+
+.services .service-items .icon {
+    background-color: var(--White);
+    width: fit-content;
+    border-radius: 100%;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.services .service-items .title h4 {
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--Neutral700);
+}
+
+.services .service-items .content {
+    width: 70%;
+    margin-top: 24px;
+}
+
+.services .service-items .content p {
+    color: var(--Neutral400);
+    font-size: 20px;
+}
+
+.services .service-content {
+    margin-bottom: 160px;
 }
