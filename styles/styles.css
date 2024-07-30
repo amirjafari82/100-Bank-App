@@ -5,10 +5,13 @@
 
 :root {
     --Primary: #0F1FD1;
+    --Primary500: #2735D6;
+    --Purple600: #0F1FD1; 
     --Black: #000000;
     --White: #FDFEFF;
     --Neutral700: #060607;
     --Neutral400: #929299;
+    --Neutral300: #B2B2B7;
     --Neutral100: #929299;
     --Neutral50: #F7F7F8;
     --Basic-Font: "Poppins", sans-serif;
@@ -198,4 +201,37 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 16px;
+}
+
+/* Trusted Banks */
+
+.trusted-banks {
+    margin-top: 160px;
+    margin-bottom: 246px;
+    text-align: center;
+}
+
+.trusted-banks .title {
+    margin-bottom: 106px;
+}
+
+.trusted-banks .title h2 {
+    font-family: var(--Basic-Font);
+    font-size: 64px;
+}
+
+.trusted-banks .bank-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.trusted-banks .bank-logos .bank svg path {
+    fill: var(--Neutral300);
+    opacity: 0.4;
+}
+
+.trusted-banks .bank-logos .mellat svg path {
+    fill: var(--Primary500);
+    opacity: 0.64;
 }
