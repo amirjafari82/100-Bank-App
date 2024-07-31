@@ -248,7 +248,7 @@ nav {
 /* Download App Section */
 
 .download-app {
-    background-color: rgba(15, 31, 209, 0.04);
+    background-color: rgba(231, 232, 250, 0.4);
     border-radius: 48px;
     padding: 45px 0px 0px 45px;
     margin: 0px 64px;
@@ -258,7 +258,8 @@ nav {
 
 .download-app .mobile-app2 {
     margin-top: 97px;
-    margin-bottom: -158px;
+    margin-right: 24px;
+    margin-bottom: -108px;
 }
 
 .download-app .content {
@@ -336,7 +337,7 @@ nav {
 
 .services .service-items .transfer,
 .services .service-items .payments {
-    background-color: var(--Primary100);
+    background-color: rgba(231, 232, 250, 0.4);
 }
 
 .services .service-items .acc-managements,
@@ -394,4 +395,116 @@ nav {
 
 .services .service-content {
     margin-bottom: 160px;
+}
+
+/* All Perks */
+
+.all-perks {
+    display: flex;
+    margin: 0 64px 288px;
+    font-family: var(--Basic-Font);
+    gap: 54px;
+    justify-content: space-between;
+}
+
+.all-perks .left-side {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 2;
+}
+
+.all-perks .left-side .title h2 {
+    font-size: 72px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.all-perks .left-side .title h2 span {
+    font-weight: 500;
+}
+
+.all-perks .left-side .subtitle p {
+    color: var(--Neutral400);
+    line-height: 31.68px;
+    font-size: 24px;
+    margin-bottom: 56px;
+}
+
+.all-perks .left-side .get-started-btn a {
+    padding: 16px 32px;
+    background-color: var(--Primary);
+    border-radius: 16px;
+    color: var(--White);
+}
+
+.all-perks .left-side .indicator {
+    align-self: center;
+    margin-bottom: 72px;
+    margin-right: 450px;
+}
+
+.all-perks .right-side {
+    flex-shrink: 1;
+}
+
+.all-perks .right-side .items {
+    display: flex;
+    gap: 40px;
+}
+
+.all-perks .right-side .items .left-items {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.all-perks .right-side .items .right-items {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 91px;
+}
+
+.all-perks .right-side .items .left-items > div,
+.all-perks .right-side .items .right-items > div {
+    text-align: center;
+    padding: 65px 65px 45px 65px;
+    border-radius: 32px;
+    width: 425px;
+}
+
+.all-perks .right-side .items .logo {
+    margin-bottom: 24px !important;
+}
+
+.all-perks .right-side .items .item-title {
+    margin-bottom: 16px;
+}
+
+.all-perks .right-side .items .item-title h4 {
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.all-perks .right-side .items .item-desc p {
+    font-size: 24px;
+    line-height: 31.68px;
+    font-weight: 400;
+    color: var(--Neutral400);
+}
+
+.all-perks .right-side .items .logo {
+    background-color: rgba(247, 247, 248, 0.32);
+    padding: 25px 32px;
+    border-radius: 100px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.all-perks .right-side .items .left-items .safety {
+    box-shadow: 0px 4px 30.3px 0px rgba(24, 28, 62, 0.13);
+}
+
+.all-perks .right-side .items .left-items .safety .logo {
+    background-color: rgba(247, 247, 248, 1);
 }
