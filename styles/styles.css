@@ -15,6 +15,7 @@
     --Neutral700: #060607;
     --Neutral400: #929299;
     --Neutral300: #B2B2B7;
+    --Neutral200: #D0D0D3;
     --Neutral100: #929299;
     --Neutral50: #F7F7F8;
     --Basic-Font: "Poppins", sans-serif;
@@ -710,4 +711,74 @@ nav {
 
 .news .news-items .item .item-desc .content .updated p {
     font-size: 16px;
+}
+
+/* FAQ */
+
+.faq {
+    font-family: var(--Basic-Font);
+}
+
+.faq .faq-titles {
+    text-align: center;
+}
+
+.faq .faq-titles h4 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26.88px;
+    color: var(--Primary600);
+    margin-bottom: 32px;
+}
+
+.faq .faq-titles h1 {
+    font-size: 64px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.faq .faq-titles p {
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--Neutral400);
+}
+
+.faq .list-of-ques {
+    margin: 176px 64px 312px;
+}
+
+.faq .list-of-ques .item {
+    border-bottom: 1px solid var(--Neutral200);
+    padding: 54px 0px 48px;
+}
+
+.faq .list-of-ques .item:last-child {
+    border: none;
+}
+
+.faq .list-of-ques .item .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq .list-of-ques .item .top .question h4 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.faq .list-of-ques .item .top .arrow-icon {
+    cursor: pointer;
+}
+
+.faq .list-of-ques .item .answer {
+    display: none;
+    width: 932px;
+    margin-top: 32px;
+}
+
+.faq .list-of-ques .item .answer p {
+    color: var(--Neutral400);
+    font-size: 24px;
+    font-weight: 400;
 }
