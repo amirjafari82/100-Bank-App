@@ -403,7 +403,7 @@ nav {
 
 .all-perks {
     display: flex;
-    margin: 0 64px 288px;
+    margin: 0 64px 206px;
     font-family: var(--Basic-Font);
     gap: 54px;
     justify-content: space-between;
@@ -473,6 +473,7 @@ nav {
     padding: 65px 65px 45px 65px;
     border-radius: 32px;
     width: auto;
+    border: 1px solid rgba(239, 239, 240, 0.4);
 }
 
 .all-perks .right-side .items .item-title {
