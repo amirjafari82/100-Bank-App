@@ -28,3 +28,20 @@ if (arrowIcon) {
     }
   }))
 }
+
+const contactusCheckBoxIcon = document.querySelector(".checkbox-icon");
+
+if (contactusCheckBoxIcon) {
+  contactusCheckBoxIcon.addEventListener("click", (e) => {
+    const isChecked = contactusCheckBoxIcon.className;
+    if (isChecked == 'checkbox-icon checked') {
+      contactusCheckBoxIcon.innerHTML = '';
+      contactusCheckBoxIcon.className = 'checkbox-icon';
+    } else {
+      contactusCheckBoxIcon.innerHTML = `<svg width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 4.08502L3.53968 7L9 1" stroke="#FDFEFF" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>`;
+      contactusCheckBoxIcon.className = 'checkbox-icon checked';
+    }
+  });
+}
